@@ -1,0 +1,23 @@
+﻿<Window x:Class="InventoryManagement.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryManagement.WPF"
+        mc:Ignorable="d"
+        Title="Inventory Management App" Height="450" Width="800"
+        ResizeMode="CanResizeWithGrip" MinWidth="800" MinHeight="450">
+
+    <DockPanel LastChildFill="True"  x:Name="DPanelContainer">
+        <!-- Top border with text -->
+        <Border DockPanel.Dock="Top" Background="#FF2D2D30" Height="40">
+            <TextBlock Padding="10" Text="🏠 Inventory Management App" FontWeight="Bold" Foreground="White" FontSize="16"
+                       VerticalAlignment="Center" HorizontalAlignment="Left"/>
+        </Border>
+
+        <!-- Main content area (fill available space) -->
+        <Grid>
+            <!-- Responsive layout using a Grid for dynamic content-->
+        </Grid>
+    </DockPanel>
+</Window>
